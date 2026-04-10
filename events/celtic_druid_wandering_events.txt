@@ -1,0 +1,56 @@
+namespace = celtic_druid_events
+
+# (Existing events from previous steps)
+# celtic_druid_events.0001 = { ... }
+
+celtic_druid_events.0002 = { # Wandering Druid
+	type = character_event
+	title = celtic_druid_events.0002.t
+	desc = celtic_druid_events.0002.desc
+	theme = learning_theme
+	left_portrait = root
+	right_portrait = scope:wandering_druid
+
+	trigger = {
+		has_trait = celtic_blood
+		is_available = yes
+	}
+
+	immediate = {
+		create_character = {
+			template = druid_template
+			save_scope_as = wandering_druid
+		}
+	}
+
+	option = { # Welcome them
+		name = celtic_druid_events.0002.a
+		add_piety = 50
+		scope:wandering_druid = {
+			add_opinion = {
+				target = root
+				modifier = grateful_opinion
+				opinion = 20
+			}
+		}
+	}
+
+	option = { # Hire them as your Court Druid
+		name = celtic_druid_events.0002.b
+		trigger = {
+			NOT = { has_court_position = court_druid }
+		}
+		scope:wandering_druid = {
+			save_scope_as = new_druid
+		}
+		assign_court_position = {
+			position = court_druid
+			character = scope:new_druid
+		}
+	}
+
+	option = { # Send them away
+		name = celtic_druid_events.0002.c
+		add_stress = 10
+	}
+}

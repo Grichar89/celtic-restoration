@@ -1,0 +1,212 @@
+# --- CELTIC RESTORATION DECISIONS ---
+
+celtic_decisions = {
+	# Proving the ancient bloodline
+	recite_celtic_lineage_decision = {
+		title = recite_celtic_lineage_decision
+		desc = recite_celtic_lineage_decision_desc
+		selection_tooltip = recite_celtic_lineage_decision_tooltip
+		
+		is_shown = {
+			has_trait = celtic_blood
+			is_living = yes
+			is_playable = yes
+		}
+		
+		is_valid = {
+			OR = {
+				has_court_position = court_poet_position
+				any_vassal = {
+					has_trait = celtic_blood
+				}
+			}
+		}
+		
+		effect = {
+			show_help_as_tooltip = recite_celtic_lineage_decision_effect_tooltip
+			add_prestige = 250
+			add_dynasty_prestige = 50
+			
+			custom_tooltip = recite_celtic_lineage_prestige_gain
+			
+			# Cooldown
+			add_character_modifier = {
+				modifier = celtic_lineage_recited_modifier
+				years = 10
+			}
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	# Learning the arts
+	study_to_become_a_bard_decision = {
+		title = study_to_become_a_bard_decision
+		desc = study_to_become_a_bard_decision_desc
+		selection_tooltip = study_to_become_a_bard_decision_tooltip
+		
+		is_shown = {
+			has_trait = celtic_blood
+			is_living = yes
+			is_playable = yes
+			NOT = { has_trait = celtic_bard }
+			NOT = { has_character_modifier = studying_bardic_arts }
+		}
+		
+		is_valid = {
+			gold >= 150
+			learning >= 8
+			diplomacy >= 8
+		}
+		
+		effect = {
+			add_gold = -150
+			add_character_modifier = {
+				modifier = studying_bardic_arts
+				years = 5
+			}
+		}
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	# Recruiting masters
+	search_for_renowned_bard_decision = {
+		title = search_for_renowned_bard_decision
+		desc = search_for_renowned_bard_decision_desc
+		selection_tooltip = search_for_renowned_bard_decision_tooltip
+		
+		is_shown = {
+			has_trait = celtic_blood
+			is_living = yes
+			is_playable = yes
+			NOT = { has_court_position = court_poet_position }
+		}
+		
+		is_valid = {
+			gold >= 100
+		}
+		
+		effect = {
+			add_gold = -100
+			trigger_event = celtic_bard_events.0001
+		}
+		
+		ai_will_do = {
+			base = 5
+		}
+	}
+
+	search_for_druid_decision = {
+		title = search_for_druid_decision
+		desc = search_for_druid_decision_desc
+		selection_tooltip = search_for_druid_decision_tooltip
+		
+		is_shown = {
+			has_trait = celtic_blood
+			is_living = yes
+			is_playable = yes
+			NOT = { has_court_position = court_druid }
+		}
+		
+		is_valid = {
+			gold >= 150
+		}
+		
+		effect = {
+			add_gold = -150
+			create_character = {
+				template = druid_template
+				save_scope_as = new_druid
+			}
+			assign_court_position = {
+				position = court_druid
+				character = scope:new_druid
+			}
+		}
+		
+		ai_will_do = {
+			base = 5
+		}
+	}
+
+	# MAJOR DECISION: Restoring the Order
+	restore_druidic_order_decision = {
+		title = restore_druidic_order_decision
+		desc = restore_druidic_order_decision_desc
+		selection_tooltip = restore_druidic_order_decision_tooltip
+		
+		is_shown = {
+			has_trait = celtic_blood
+			is_living = yes
+			is_playable = yes
+			NOT = { has_global_variable = druidic_order_restored }
+		}
+		
+		is_valid = {
+			has_court_position = court_druid
+			piety >= 500
+			gold >= 250
+			highest_held_title_tier >= 4 # King or Emperor
+		}
+		
+		effect = {
+			set_global_variable = druidic_order_restored
+			add_piety = -500
+			add_gold = -250
+			add_dynasty_prestige = 500
+			
+			add_character_modifier = {
+				modifier = restorer_of_the_druidic_order
+			}
+			
+			# Notify other Celtic rulers
+			every_living_character = {
+				limit = {
+					has_trait = celtic_blood
+					NOT = { this = root }
+					is_playable = yes
+				}
+				trigger_event = celtic_druid_events.0001
+			}
+		}
+		
+		ai_will_do = {
+			base = 100 # AI will prioritize this if they can do it
+		}
+	}
+
+	centralize_celtic_realm_decision = {
+		title = centralize_celtic_realm_decision
+		desc = centralize_celtic_realm_decision_desc
+		selection_tooltip = centralize_celtic_realm_decision_tooltip
+		
+		is_shown = {
+			has_trait = celtic_blood
+			is_living = yes
+			is_playable = yes
+			highest_held_title_tier >= 5 # Emperor
+			NOT = { has_government = administrative_government }
+		}
+		
+		is_valid = {
+			culture = {
+				has_innovation = innovation_legalism # Or a suitable era/tech requirement
+			}
+			prestige_level >= 3
+		}
+		
+		effect = {
+			change_government = administrative_government
+			add_prestige = 1000
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	}
+}

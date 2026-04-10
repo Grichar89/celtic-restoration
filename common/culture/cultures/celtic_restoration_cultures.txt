@@ -1,0 +1,214 @@
+# --- CELTIC CULTURE OVERRIDES (Preserving Vanilla + Modded) ---
+
+irish = {
+	name_list = name_list_irish_restored
+	traditions = {
+		tradition_bardic_tradition
+		tradition_druidic_heritage
+		tradition_isolationist
+		tradition_agrarian
+		tradition_communal_possessions
+		tradition_pastoralists
+		tradition_polygamous
+		tradition_maritime_mercantilism
+		tradition_monastic_communities
+	}
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+welsh = {
+	name_list = name_list_welsh_restored
+	traditions = {
+		tradition_bardic_tradition
+		tradition_druidic_heritage
+		tradition_isolationist
+		tradition_longbow_competitions
+		tradition_forest_wardens
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_hill_dwellers
+		tradition_strong_kinship
+	}
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { welsh_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+gaelic = {
+	name_list = name_list_gaelic_restored
+	traditions = {
+		tradition_bardic_tradition
+		tradition_druidic_heritage
+		tradition_isolationist
+		tradition_gallowglass
+		tradition_highland_warriors
+		tradition_fishermen
+		tradition_hill_dwellers
+		tradition_strong_kinship
+		tradition_concubines
+	}
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+
+}
+
+pictish = {
+	name_list = name_list_irish_restored
+	traditions = {
+		tradition_bardic_tradition
+		tradition_druidic_heritage
+		tradition_isolationist
+		tradition_strong_believers
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_hill_dwellers
+		tradition_strong_kinship
+		tradition_gallowglass
+	}
+
+	coa_gfx = { scottish_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+breton = {
+	name_list = name_list_welsh_restored
+	traditions = {
+		tradition_bardic_tradition
+		tradition_druidic_heritage
+		tradition_isolationist
+		tradition_maritime_salt
+		tradition_spurned_invaders
+		tradition_fishermen
+		tradition_storytellers
+		tradition_swords_for_hire
+		tradition_chanson_de_geste
+	}
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cornish = {
+	name_list = name_list_welsh_restored
+	traditions = {
+		tradition_bardic_tradition
+		tradition_druidic_heritage
+		tradition_isolationist
+		tradition_longbow_competitions
+		tradition_fishermen
+		tradition_storytellers
+		tradition_ancient_miners
+		
+	}
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { cornish_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+manx = {
+	name_list = name_list_manx_restored
+	traditions = {
+		tradition_bardic_tradition
+		tradition_druidic_heritage
+		tradition_isolationist
+		tradition_dexterous_fishermen
+	}
+}
+
+cumbrian = {
+	name_list = name_list_cumbrian_restored
+	traditions = {
+		tradition_bardic_tradition
+		tradition_druidic_heritage
+		tradition_isolationist
+		tradition_forest_wardens
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_stalwart_defenders
+	}
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

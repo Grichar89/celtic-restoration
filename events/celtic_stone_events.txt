@@ -1,0 +1,14 @@
+namespace = celtic_stone_events
+
+celtic_stone_events.0001 = { # Memorial Event
+	type = character_event
+	title = celtic_stone_events.0001.t
+	desc = celtic_stone_events.0001.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = celtic_stone_events.0001.a
+		add_prestige = 100
+	}
+}

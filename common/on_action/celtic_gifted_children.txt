@@ -1,0 +1,29 @@
+on_character_become_adult = {
+	effect = {
+		if = {
+			limit = {
+				has_trait = celtic_blood
+				NOT = { has_trait = druid }
+				NOT = { has_trait = celtic_bard }
+			}
+			# 5% chance for a gifted trait
+			random_list = {
+				5 = {
+					modifier = {
+						add = 5
+						learning >= 12
+					}
+					add_trait = druid
+				}
+				5 = {
+					modifier = {
+						add = 5
+						diplomacy >= 12
+					}
+					add_trait = celtic_bard
+				}
+				90 = { }
+			}
+		}
+	}
+}

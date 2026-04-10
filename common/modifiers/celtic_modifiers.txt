@@ -1,0 +1,28 @@
+studying_bardic_arts = {
+	diplomacy = 1
+	learning = 1
+	monthly_prestige = -0.1
+	
+	on_expire = {
+		trigger_event = celtic_bard_events.0002
+	}
+}
+
+grand_eisteddfod_province_modifier = {
+	cultural_acceptance_gain_mult = 0.1
+	popular_opinion = 5
+}
+
+restorer_of_the_druidic_order = {
+	monthly_piety = 0.5
+	same_culture_opinion = 5
+}
+
+celtic_standing_stone_modifier = {
+	monthly_dynasty_prestige = 0.1
+	same_culture_opinion = 5
+}
+
+raised_celtic_stone_cooldown = {
+	monthly_prestige = 0.1
+}

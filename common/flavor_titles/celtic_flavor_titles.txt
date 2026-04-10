@@ -1,0 +1,85 @@
+# Empire Tier
+title_emperor_irish = { priority = 100 top_tier_only = yes trigger = { culture = culture:irish tier = tier_empire } }
+title_emperor_welsh = { priority = 100 top_tier_only = yes trigger = { culture = culture:welsh tier = tier_empire } }
+title_emperor_gaelic = { priority = 100 top_tier_only = yes trigger = { culture = culture:gaelic tier = tier_empire } }
+title_emperor_pictish = { priority = 100 top_tier_only = yes trigger = { culture = culture:pictish tier = tier_empire } }
+title_emperor_breton = { priority = 100 top_tier_only = yes trigger = { culture = culture:breton tier = tier_empire } }
+title_emperor_cornish = { priority = 100 top_tier_only = yes trigger = { culture = culture:cornish tier = tier_empire } }
+title_emperor_cumbrian = { priority = 100 top_tier_only = yes trigger = { culture = culture:cumbrian tier = tier_empire } }
+title_emperor_manx = { priority = 100 top_tier_only = yes trigger = { culture = culture:manx tier = tier_empire } }
+
+# Kingdom Tier (Already added, but grouped here for clarity)
+title_king_irish = { priority = 100 top_tier_only = yes trigger = { culture = culture:irish tier = tier_kingdom } }
+title_king_welsh = { priority = 100 top_tier_only = yes trigger = { culture = culture:welsh tier = tier_kingdom } }
+title_king_gaelic = { priority = 100 top_tier_only = yes trigger = { culture = culture:gaelic tier = tier_kingdom } }
+title_king_pictish = { priority = 100 top_tier_only = yes trigger = { culture = culture:pictish tier = tier_kingdom } }
+title_king_breton = { priority = 100 top_tier_only = yes trigger = { culture = culture:breton tier = tier_kingdom } }
+title_king_cornish = { priority = 100 top_tier_only = yes trigger = { culture = culture:cornish tier = tier_kingdom } }
+title_king_cumbrian = { priority = 100 top_tier_only = yes trigger = { culture = culture:cumbrian tier = tier_kingdom } }
+title_king_manx = { priority = 100 top_tier_only = yes trigger = { culture = culture:manx tier = tier_kingdom } }
+
+# Duchy Tier
+title_duke_irish = { priority = 100 trigger = { culture = culture:irish tier = tier_duchy } }
+title_duke_welsh = { priority = 100 trigger = { culture = culture:welsh tier = tier_duchy } }
+title_duke_gaelic = { priority = 100 trigger = { culture = culture:gaelic tier = tier_duchy } }
+title_duke_pictish = { priority = 100 trigger = { culture = culture:pictish tier = tier_duchy } }
+title_duke_breton = { priority = 100 trigger = { culture = culture:breton tier = tier_duchy } }
+title_duke_cornish = { priority = 100 trigger = { culture = culture:cornish tier = tier_duchy } }
+title_duke_cumbrian = { priority = 100 trigger = { culture = culture:cumbrian tier = tier_duchy } }
+title_duke_manx = { priority = 100 trigger = { culture = culture:manx tier = tier_duchy } }
+
+# County Tier
+title_count_irish = { priority = 100 trigger = { culture = culture:irish tier = tier_county } }
+title_count_welsh = { priority = 100 trigger = { culture = culture:welsh tier = tier_county } }
+title_count_gaelic = { priority = 100 trigger = { culture = culture:gaelic tier = tier_county } }
+title_count_pictish = { priority = 100 trigger = { culture = culture:pictish tier = tier_county } }
+title_count_breton = { priority = 100 trigger = { culture = culture:breton tier = tier_county } }
+title_count_cornish = { priority = 100 trigger = { culture = culture:cornish tier = tier_county } }
+title_count_cumbrian = { priority = 100 trigger = { culture = culture:cumbrian tier = tier_county } }
+title_count_manx = { priority = 100 trigger = { culture = culture:manx tier = tier_county } }
+
+# Baron Tier
+title_baron_irish = { priority = 100 trigger = { culture = culture:irish tier = tier_barony } }
+title_baron_welsh = { priority = 100 trigger = { culture = culture:welsh tier = tier_barony } }
+title_baron_gaelic = { priority = 100 trigger = { culture = culture:gaelic tier = tier_barony } }
+title_baron_pictish = { priority = 100 trigger = { culture = culture:pictish tier = tier_barony } }
+title_baron_breton = { priority = 100 trigger = { culture = culture:breton tier = tier_barony } }
+title_baron_cornish = { priority = 100 trigger = { culture = culture:cornish tier = tier_barony } }
+title_baron_cumbrian = { priority = 100 trigger = { culture = culture:cumbrian tier = tier_barony } }
+title_baron_manx = { priority = 100 trigger = { culture = culture:manx tier = tier_barony } }
+
+# Mayor (City)
+title_mayor_celtic = {
+	priority = 100
+	trigger = {
+		OR = {
+			culture = culture:irish
+			culture = culture:welsh
+			culture = culture:gaelic
+			culture = culture:pictish
+			culture = culture:breton
+			culture = culture:cornish
+			culture = culture:cumbrian
+			culture = culture:manx
+		}
+		is_city_holder = yes
+	}
+}
+
+# Priest (Temple)
+title_priest_celtic = {
+	priority = 100
+	trigger = {
+		OR = {
+			culture = culture:irish
+			culture = culture:welsh
+			culture = culture:gaelic
+			culture = culture:pictish
+			culture = culture:breton
+			culture = culture:cornish
+			culture = culture:cumbrian
+			culture = culture:manx
+		}
+		is_temple_holder = yes
+	}
+}

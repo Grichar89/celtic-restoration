@@ -1,0 +1,33 @@
+l_english:
+ # Government Name override for Celtic cultures with Administrative
+ administrative_government_irish:0 "Brehon Administration"
+ administrative_government_welsh:0 "Brehon Administration"
+ administrative_government_gaelic:0 "Brehon Administration"
+ administrative_government_breton:0 "Brehon Administration"
+ administrative_government_cornish:0 "Brehon Administration"
+ administrative_government_manx:0 "Brehon Administration"
+ administrative_government_cumbrian:0 "Brehon Administration"
+ administrative_government_pictish:0 "Brehon Administration"
+
+ # Governor Flavor Names
+ title_governor_irish:0 "Toisech"
+ title_governor_irish_female:0 "Toisech"
+ title_governor_gaelic:0 "Toisech"
+ title_governor_gaelic_female:0 "Toisech"
+ title_governor_welsh:0 "Maer"
+ title_governor_welsh_female:0 "Maer"
+ title_governor_breton:0 "Maer"
+ title_governor_breton_female:0 "Maer"
+ title_governor_cornish:0 "Maer"
+ title_governor_cornish_female:0 "Maer"
+ title_governor_manx:0 "Toshee"
+ title_governor_manx_female:0 "Toshee"
+ title_governor_cumbrian:0 "Maer"
+ title_governor_cumbrian_female:0 "Maer"
+ title_governor_pictish:0 "Toisech"
+ title_governor_pictish_female:0 "Toisech"
+
+ # Decision to transition
+ centralize_celtic_realm_decision:0 "Centralize the Celtic Realm"
+ centralize_celtic_realm_decision_desc:0 "I shall unify the disparate clans and tribes under a single, central authority—the Brehon Administration. By formalizing our ancient laws and establishing a professional bureaucracy of Druids and Bards, we shall ensure the eternal stability of the Celtic Empire."
+ centralize_celtic_realm_decision_tooltip:0 "You will transition to an Administrative Government (Brehon Administration)."

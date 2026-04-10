@@ -1,0 +1,22 @@
+l_english:
+ # Activity Type
+ celtic_pilgrimage:0 "Celtic Pilgrimage"
+ celtic_pilgrimage_desc:0 "A journey to the most sacred and historical sites of the Celtic people, to reconnect with the wisdom of the ancestors and the ancient powers of the land."
+ celtic_pilgrimage_action:0 "Embark on a Celtic Pilgrimage"
+ 
+ # Destinations
+ celtic_pilgrimage_stonehenge:0 "The Great Stones of Amesbury"
+ celtic_pilgrimage_tara:0 "The Hill of Tara"
+ celtic_pilgrimage_st_davids:0 "Mynyw (St Davids)"
+ celtic_pilgrimage_iona:0 "Iona"
+ celtic_pilgrimage_mona:0 "Mona (Anglesey)"
+ celtic_pilgrimage_carnac:0 "The Alignments of Carnac"
+ 
+ # Event Titles and Descriptions
+ celtic_pilgrimage_events.0001.t:0 "Sacred Ground"
+ celtic_pilgrimage_events.0001.desc:0 "I have finally arrived. The air here feels different—thick with the weight of centuries and the echoes of those who came before. Whether it is the towering stones or the rolling hills, the power of this place is undeniable."
+ celtic_pilgrimage_events.0001.a:0 "A truly powerful place."
+ 
+ celtic_pilgrimage_events.0002.t:0 "Ancient Voices"
+ celtic_pilgrimage_events.0002.desc:0 "I spent the night in meditation among the relics of the past. In the silence of the dawn, I felt a connection that transcended time, a whisper from the ancestors that spoke of our shared blood and destiny."
+ celtic_pilgrimage_events.0002.a:0 "I understand my heritage better now."

@@ -1,0 +1,78 @@
+namespace = celtic_bard_events
+
+celtic_bard_events.0001 = {
+	type = character_event
+	title = celtic_bard_events.0001.t
+	desc = celtic_bard_events.0001.desc
+	theme = learning_theme
+	left_portrait = root
+	right_portrait = scope:traveling_bard
+
+	trigger = {
+		has_trait = celtic_blood
+		is_available = yes
+	}
+
+	immediate = {
+		create_character = {
+			template = traveling_bard_template
+			save_scope_as = traveling_bard
+		}
+	}
+
+	option = { # Welcome them
+		name = celtic_bard_events.0001.a
+		add_prestige = 100
+		add_dynasty_prestige = 25
+		if = {
+			limit = { has_dlc_feature = legends }
+			# Spread Legend if the DLC is active
+			add_legend_mark_progress = {
+				amount = 50
+			}
+		}
+		scope:traveling_bard = {
+			add_opinion = {
+				target = root
+				modifier = grateful_opinion
+				opinion = 20
+			}
+		}
+	}
+
+	option = { # Hire them as your Court Bard
+		name = celtic_bard_events.0001.b
+		trigger = {
+			NOT = { has_court_position = court_poet_position }
+		}
+		custom_tooltip = hire_traveling_bard_tooltip
+		scope:traveling_bard = {
+			save_scope_as = new_court_bard
+			add_trait = celtic_bard # Ensure they have the custom trait
+		}
+		assign_court_position = {
+			position = court_poet_position
+			character = scope:new_court_bard
+		}
+	}
+
+	option = { # Send them away
+		name = celtic_bard_events.0001.c
+		add_stress = 10
+	}
+}
+
+# Training Complete Event
+celtic_bard_events.0002 = {
+	type = character_event
+	title = celtic_bard_events.0002.t
+	desc = celtic_bard_events.0002.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = celtic_bard_events.0002.a
+		add_trait = celtic_bard
+		add_prestige = 500
+	}
+}

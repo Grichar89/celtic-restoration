@@ -1,0 +1,35 @@
+# common/on_action/celtic_blood_on_actions.txt
+on_game_start = {
+	effect = {
+		every_living_character = {
+			limit = {
+				OR = {
+					culture = irish
+					culture = welsh
+					culture = gaelic
+					culture = pictish
+					culture = breton
+					culture = cornish
+					culture = cumbrian
+					culture = manx
+				}
+				NOT = { has_trait = celtic_blood }
+			}
+			add_trait = celtic_blood
+		}
+
+		# Spawn initial Druids for higher tier rulers
+		every_living_character = {
+			limit = {
+				is_playable = yes
+				has_trait = celtic_blood
+				highest_held_title_tier >= 3 # Duke or higher
+			}
+			# Create a druid in their court
+			create_character = {
+				template = druid_template
+				save_scope_as = starting_druid
+			}
+		}
+	}
+}

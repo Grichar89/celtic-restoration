@@ -1,0 +1,30 @@
+l_english:
+ # Activity Type Dynamic Names
+ grand_eisteddfod_welsh:0 "Grand Eisteddfod"
+ grand_eisteddfod_irish:0 "Grand Oireachtas"
+ grand_eisteddfod_gaelic:0 "Grand Mòd"
+ grand_eisteddfod_breton:0 "Grand Gouel"
+ grand_eisteddfod_cornish:0 "Grand Esethvos"
+ grand_eisteddfod_manx:0 "Grand Cooish"
+ grand_eisteddfod_pictish:0 "Grand Aonach"
+
+ grand_eisteddfod_desc:0 "A grand assembly of bards, poets, and musicians to celebrate the ancient arts of our people. Through competition and recital, we shall determine the master of the harp and the word."
+ grand_eisteddfod_action:0 "Host a Grand Assembly"
+ 
+ # Event Titles and Options
+ grand_eisteddfod_events.1001.t:0 "The Assembly Begins"
+ grand_eisteddfod_events.1001.desc:0 "The assembly has gathered, and the horns have sounded. The gathering is officially open, and bards from across the lands are ready to showcase their skills."
+ grand_eisteddfod_events.1001.a:0 "Let the competition begin!"
+ 
+ grand_eisteddfod_events.1002.t:0 "The Chairing of the Bard"
+ grand_eisteddfod_events.1002.desc:0 "It is time for the recitals. The air is thick with anticipation as the most skilled poets step forward to recite the ancient meters and the long genealogies of our kings."
+ grand_eisteddfod_events.1002.a:0 "My performance was flawless."
+ grand_eisteddfod_events.1002.b:0 "I shall listen and learn from the masters."
+ 
+ grand_eisteddfod_events.1003.t:0 "Songs and Revelry"
+ grand_eisteddfod_events.1003.desc:0 "As the sun sets, the competition gives way to joy. The halls echo with the sound of harps and the laughter of friends, both old and new."
+ grand_eisteddfod_events.1003.a:0 "A truly magnificent night."
+ 
+ grand_eisteddfod_events.1004.t:0 "The Gorsedd Departs"
+ grand_eisteddfod_events.1004.desc:0 "The final notes have been played, and the master of the chair has been chosen. As the bards depart for their home courts, the memory of this assembly will live on in their songs."
+ grand_eisteddfod_events.1004.a:0 "Until we meet again."

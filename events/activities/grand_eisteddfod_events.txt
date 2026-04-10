@@ -1,0 +1,58 @@
+namespace = grand_eisteddfod_events
+
+grand_eisteddfod_events.1001 = { # Opening
+	type = character_event
+	title = grand_eisteddfod_events.1001.t
+	desc = grand_eisteddfod_events.1001.desc
+	
+	option = {
+		name = grand_eisteddfod_events.1001.a
+		add_prestige = 50
+	}
+}
+
+grand_eisteddfod_events.1002 = { # Recital
+	type = character_event
+	title = grand_eisteddfod_events.1002.t
+	desc = grand_eisteddfod_events.1002.desc
+	
+	option = { # Recite perfectly
+		name = grand_eisteddfod_events.1002.a
+		trigger = { has_trait = celtic_bard }
+		add_prestige = 150
+		add_learning_xp = 50
+	}
+	
+	option = { # Try to learn from the masters
+		name = grand_eisteddfod_events.1002.b
+		trigger = { NOT = { has_trait = celtic_bard } }
+		add_learning_xp = 100
+		add_diplomacy_xp = 50
+		random_list = {
+			20 = { add_trait = celtic_bard }
+			80 = { }
+		}
+	}
+}
+
+grand_eisteddfod_events.1003 = { # Revelry
+	type = character_event
+	title = grand_eisteddfod_events.1003.t
+	desc = grand_eisteddfod_events.1003.desc
+	
+	option = {
+		name = grand_eisteddfod_events.1003.a
+		add_stress = -20
+	}
+}
+
+grand_eisteddfod_events.1004 = { # Closing
+	type = character_event
+	title = grand_eisteddfod_events.1004.t
+	desc = grand_eisteddfod_events.1004.desc
+	
+	option = {
+		name = grand_eisteddfod_events.1004.a
+		add_prestige = 100
+	}
+}

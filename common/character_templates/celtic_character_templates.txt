@@ -1,0 +1,19 @@
+traveling_bard_template = {
+	age = { 20 40 }
+	is_living = yes
+	random_traits = yes
+	fixed_traits = { celtic_bard }
+	culture = root.culture
+	religion = root.religion
+	skill = { learning = { 12 25 } }
+}
+
+druid_template = {
+	age = { 30 60 }
+	is_living = yes
+	random_traits = yes
+	fixed_traits = { druid herbalist }
+	culture = root.culture
+	religion = root.religion
+	skill = { learning = { 15 30 } }
+}

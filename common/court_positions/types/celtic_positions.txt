@@ -1,0 +1,68 @@
+court_druid = {
+	max_count = 1
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { culture = culture:irish }
+				desc = court_druid_irish
+			}
+			triggered_desc = {
+				trigger = { culture = culture:gaelic }
+				desc = court_druid_gaelic
+			}
+			triggered_desc = {
+				trigger = { culture = culture:breton }
+				desc = court_druid_breton
+			}
+			triggered_desc = {
+				trigger = { culture = culture:cornish }
+				desc = court_druid_cornish
+			}
+			triggered_desc = {
+				trigger = { culture = culture:manx }
+				desc = court_druid_manx
+			}
+			triggered_desc = {
+				trigger = { culture = culture:pictish }
+				desc = court_druid_pictish
+			}
+			desc = court_druid_welsh
+		}
+	}
+
+	is_shown = {
+		has_trait = celtic_blood
+	}
+	
+	is_valid = {
+		is_living = yes
+	}
+
+	can_hire = {
+		has_trait = druid
+	}
+	
+	employer_modifier = {
+		monthly_piety = 1
+		learning = 1
+		health = 1
+		court_physician_resistance_modifier = 0.25 # Historical bonus as a physician
+	}
+	
+	candidate_score = {
+		base = 10
+		modifier = {
+			add = 20
+			has_trait = druid
+		}
+		modifier = {
+			add = 10
+			learning >= 15
+		}
+	}
+	
+	salary = {
+		gold = 10
+	}
+}

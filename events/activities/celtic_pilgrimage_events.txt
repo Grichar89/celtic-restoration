@@ -1,0 +1,45 @@
+namespace = celtic_pilgrimage_events
+
+celtic_pilgrimage_events.0001 = { # Arrival
+	type = character_event
+	title = celtic_pilgrimage_events.0001.t
+	desc = celtic_pilgrimage_events.0001.desc
+	
+	option = {
+		name = celtic_pilgrimage_events.0001.a
+		add_piety = 50
+	}
+}
+
+celtic_pilgrimage_events.0002 = { # Meditation
+	type = character_event
+	title = celtic_pilgrimage_events.0002.t
+	desc = celtic_pilgrimage_events.0002.desc
+	
+	option = { # Feel a connection to the ancestors
+		name = celtic_pilgrimage_events.0002.a
+		add_learning_xp = 100
+		add_piety = 50
+		random_list = {
+			10 = { add_trait = celtic_bard }
+			90 = { }
+		}
+	}
+}
+
+celtic_pilgrimage_events.0003 = { # Druidic Communion
+	type = character_event
+	title = celtic_pilgrimage_events.0003.t
+	desc = celtic_pilgrimage_events.0003.desc
+	
+	trigger = {
+		has_trait = celtic_blood
+		has_court_position = court_druid
+	}
+	
+	option = { # Commune with the other druids
+		name = celtic_pilgrimage_events.0003.a
+		add_piety = 100
+		add_learning_xp = 150
+	}
+}

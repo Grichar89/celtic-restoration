@@ -1,0 +1,14 @@
+l_english:
+ # Traveling Bard Events
+ celtic_bard_events.0001.t:0 "A Traveling Bard Arrives"
+ celtic_bard_events.0001.desc:0 "A weary traveler with a harp on their back and a glint of old wisdom in their eyes has arrived at my court. They claim to be a renowned bard, a keeper of the ancient tales and genealogies of the Celtic people. They offer to recite a poem in my honor or even stay as a permanent fixture of the court."
+ celtic_bard_events.0001.a:0 "Welcome them! Tell the tales of my ancestors."
+ celtic_bard_events.0001.b:0 "Stay with us and serve our dynasty forever."
+ celtic_bard_events.0001.c:0 "We have no need for your songs today."
+ 
+ # Search for Bard Decision
+ search_for_renowned_bard_decision:0 "Search for a Renowned Bard"
+ search_for_renowned_bard_decision_desc:0 "I shall send my heralds across the hills and valleys to find a bard worthy of my court, to keep the old stories alive."
+ search_for_renowned_bard_decision_tooltip:0 "You will spend gold to attract a talented bard to your court."
+ hire_traveling_bard_tooltip:0 "The bard will join your court and serve as your court poet."
+ grateful_opinion:0 "Grateful for Hospitality"

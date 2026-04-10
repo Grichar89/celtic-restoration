@@ -1,0 +1,66 @@
+# --- CELTIC NAME LIST OVERRIDES (Vanilla + Restored) ---
+
+name_list_welsh_restored = {
+	male_names = {
+		Arthur Cadwgan Caradog Dafydd Gruffudd Llywelyn Madog Owain Pwyll Rhun Rhodri
+		# Vanilla Welsh
+		Addaf Bleddyn Cadfael Cadwaladr Cadwgan Caradog Cynddelw Cynwrig Dafydd Deiniol Dyfnwal Ednyfed Einion Elisedd Gwalchmai Gwilym Gwyn Hywel Iago Idwal Ifor Iorwerth Ithel Llywelyn Madog Maelgwn Maredudd Meurig Morgan Owain Padarn Peredur Rhirid Rhodri Rhun Rhys Seisyll Tegwared Trahaearn Tudur
+	}
+	female_names = {
+		Angharad Gwenllian Myfanwy Nest Rhiannon Branwen Olwen Elen
+		# Vanilla Welsh
+		Angharad Arddun Buddug Dyddgu Efa Elena Elen Euronwy Gladys Goleuddydd Gwerfyl Gwenllian Gwladus Hawise Hunydd Lleucu Lowri Mabli Mallt Marared Nest Peren Rhiannon Rhiainfellt Tangwystl
+	}
+}
+
+name_list_irish_restored = {
+	male_names = {
+		Brian Cormac Diarmaid Eochaid Fiacha Lughaidh Niall Oisín Pádraig Tadhg
+		# Vanilla Irish
+		Aed Aedán Ailill Ainmere Amlaíb Art Baetán Bécc Bran Bresal Brian Cathal Cellach Cennétig Cerball Colmán Conall Conchobar Congalach Conmael Conn Cormac Crimthann Cú_Mán Cú_Ulad Cú_Chulainn Diarmaid Domnall Donnchad Dub_Dara Dubgall Dúngal Eochaid Eógan Énna Fedelmid Fergal Fergus Fiacha Flaithbertach Flann Follaman Gormán Guaire Inrachtach Lorcán Lugaid Máel_Dúin Máel_Mórda Máel_Sechnaill Muirchertach Muiredach Murchad Niall Nuadu Óengus Oisín Pádraig Ragnall Ruaidrí Seanchán Tadc Tigernán Toirrdelbach Ualgarg
+	}
+	female_names = {
+		Aoife Brigid Deirdre Étain Gráinne Meadhbh Niamh Sadbh Siobhán
+		# Vanilla Irish
+		Aibeilín Aífe Ailbe Ailinn Áine Aisling Bé_Binn Blaithnat Bríg Caillech Caitilín Coblaith Der_Bforgaill Der_Iile Dub_Chablaig Dub_Essa Dúinnsech Étaín Ethne Fainche Fedelm Find_Abair Finnguala Flann Gormlaith Gráinne Lann Lasairfhíona Lebarcham Máel_Muire Medb Mór Muirenn Murgel Orlaith Sadbh Sláine Tailefhlaith Úna
+	}
+}
+
+name_list_gaelic_restored = {
+	male_names = {
+		Alasdair Angus Calum Donald Duncan Finlay Hamish Kenneth Lachlan Malcolm
+		# Vanilla Gaelic
+		Ailéan Alasdair Alaxandair Aonghas Artair Beathán Brian Calum Cailean Cináed Coinneach Colmán Domhnall Donnchadh Dubhghall Dùghall Eachann Eòghan Fionnlagh Gille_Brìghde Gille_Chrìosd Gille_Easbaig Gille_Mhuire Gofraidh Íomhar Labhruinn Lachlann Lugtaig Maol_Coluim Marcus Murchadh Niall Padraig Raghnall Ruadh Ruairidh Somhairle Tadhg Tormod Uilleam
+	}
+	female_names = {
+		Catriona Eilidh Fenella Iseabail Mairi Marsaili Morag Seonag
+		# Vanilla Gaelic
+		Aignéis Áine Alestren Anna Annabla Barabal Beathag Cairistìona Catrìona Dearbháil Deirdre Ealasaid Ealbhala Ealusaid Eara Eilidh Eiric Eithne Fenella Fiona Fionnghuala Forbflaith Gormlaith Gráinne Iseabail Isbeil Mada Máiri Maol_Muire Marghraead Marsaili Mòr Mòrag Muireall Ragnhild Seònaid Sileas Sìne Sorcha Una
+	}
+}
+
+name_list_cumbrian_restored = {
+	male_names = {
+		Aneirin Cadwallon Cyndeyrn Elidir Gwenddolau Owain Rhydderch Taliesin Urien
+		# Add shared Brythonic roots
+		Arthur Cadwaladr Cadwgan Caradog Cynwrig Dafydd Dyfnwal Einion Gruffudd Hywel Idwal Ifor Iorwerth Llywelyn Madog Maelgwn Maredudd Meurig Morgan Owain Rhodri Rhun Rhys Trahaearn Tudur
+	}
+	female_names = {
+		Dwywe Dyfyr Gwerfyl Heledd Keira Myfanwy Nyfain Rieingulid
+		# Shared Brythonic roots
+		Angharad Arddun Buddug Efa Elena Elen Euronwy Gladys Gwenllian Gwladus Hunydd Lleucu Lowri Mabli Mallt Marared Nest Rhiannon Tangwystl
+	}
+}
+
+name_list_manx_restored = {
+	male_names = {
+		Illiam Juan Kerruish Orry Patrick Quinney Thomase
+		# Mix of Gaelic and Norse influences typical for Manx
+		Alasdair Aonghas Brian Calum Cináed Coinneach Domhnall Donnchadh Eachann Eòghan Gofraidh Íomhar Lachlann Maol_Coluim Niall Padraig Raghnall Ruairidh Somhairle Tormod Uilleam
+	}
+	female_names = {
+		Breeshey Joney Margaid Voirrey
+		# Mix of Gaelic/Norse
+		Áine Anna Barabal Caitrìona Dearbháil Deirdre Ealasaid Eilidh Eithne Fenella Fiona Fionnghuala Gormlaith Gráinne Iseabail Máiri Marghraead Mòr Mòrag Ragnhild Sìne Una
+	}
+}

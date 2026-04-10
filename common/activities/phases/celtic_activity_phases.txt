@@ -1,0 +1,23 @@
+grand_eisteddfod_opening = {
+	on_start = {
+		trigger_event = grand_eisteddfod_events.1001
+	}
+}
+
+grand_eisteddfod_recital = {
+	on_start = {
+		trigger_event = grand_eisteddfod_events.1002
+	}
+}
+
+grand_eisteddfod_revelry = {
+	on_start = {
+		trigger_event = grand_eisteddfod_events.1003
+	}
+}
+
+grand_eisteddfod_closing = {
+	on_start = {
+		trigger_event = grand_eisteddfod_events.1004
+	}
+}

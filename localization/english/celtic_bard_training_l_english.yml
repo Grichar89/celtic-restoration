@@ -1,0 +1,15 @@
+l_english:
+ # Celtic Bard Trait
+ celtic_bard_name:0 "Celtic Bard"
+ celtic_bard_desc:0 "This character has been trained in the ancient oral traditions of the Celtic people. They are a master of history, genealogy, and the poetic arts, holding a high social status among their kin."
+
+ # Training Decision
+ study_to_become_a_bard_decision:0 "Train in the Bardic Arts"
+ study_to_become_a_bard_decision_desc:0 "I shall dedicate myself to learning the ancient songs and stories of my people, ensuring that our heritage is never forgotten."
+ study_to_become_a_bard_decision_tooltip:0 "You will begin a five-year study of the bardic traditions."
+ studying_bardic_arts:0 "Studying Bardic Arts"
+ 
+ # Completion Event
+ celtic_bard_events.0002.t:0 "Master of the Harp"
+ celtic_bard_events.0002.desc:0 "The long years of study have finally come to an end. I have mastered the intricate meters, the ancient laws, and the long genealogies of the Celtic kings. I am now recognized by all as a true Bard."
+ celtic_bard_events.0002.a:0 "My voice shall be the voice of my people."

@@ -1,0 +1,164 @@
+# Kingdom Level Cultural Names
+k_england = {
+	cultural_names = {
+		welsh = "Lloegr"
+		cornish = "Logres"
+		breton = "Bro-Saoz"
+		irish = "Sasana"
+		gaelic = "Sasainn"
+		manx = "Sostyn"
+		cumbrian = "Lloegyr"
+	}
+}
+
+k_wales = {
+	cultural_names = {
+		welsh = "Cymru"
+		cornish = "Kembra"
+		breton = "Kembre"
+		irish = "An Bhreatain Bheag"
+		gaelic = "A' Chuimrigh"
+		manx = "Yn Vretin Veg"
+		cumbrian = "Cymru"
+	}
+}
+
+k_scotland = {
+	cultural_names = {
+		gaelic = "Alba"
+		irish = "Alba"
+		pictish = "Alba"
+		manx = "Nalbin"
+		welsh = "Yr Alban"
+		cornish = "Alban"
+		breton = "Bro-Skos"
+		cumbrian = "Yr Alban"
+	}
+}
+
+k_ireland = {
+	cultural_names = {
+		irish = "Éire"
+		gaelic = "Èirinn"
+		manx = "Nerin"
+		welsh = "Iwerddon"
+		cornish = "Wordhen"
+		breton = "Iwerzhon"
+		cumbrian = "Iwerddon"
+	}
+}
+
+k_brittany = {
+	cultural_names = {
+		breton = "Breizh"
+		welsh = "Llydaw"
+		cornish = "Breten Vian"
+		irish = "An Bhriotáin"
+		gaelic = "A' Bhreatainn Bheag"
+		manx = "Yn Bhreatain Veg"
+		cumbrian = "Llydaw"
+	}
+}
+
+# Duchy Level Cultural Names
+d_cornwall = {
+	cultural_names = {
+		cornish = "Kernow"
+		welsh = "Cernyw"
+		breton = "Kernev"
+		irish = "Corn na Breataine"
+		gaelic = "A' Chòrn"
+		manx = "Yn Chorn"
+		cumbrian = "Cernyw"
+	}
+}
+
+d_mann = {
+	cultural_names = {
+		manx = "Mannin"
+		irish = "Manainn"
+		gaelic = "Manainn"
+		welsh = "Manaw"
+		cornish = "Manow"
+		breton = "Manav"
+		cumbrian = "Manaw"
+	}
+}
+
+d_gwynedd = {
+	cultural_names = {
+		welsh = "Gwynedd"
+		cumbrian = "Gwynedd"
+		breton = "Gwynedd"
+		cornish = "Gwynedd"
+	}
+}
+
+d_powys = {
+	cultural_names = {
+		welsh = "Powys"
+		cumbrian = "Powys"
+	}
+}
+
+d_deheubarth = {
+	cultural_names = {
+		welsh = "Deheubarth"
+		cumbrian = "Deheubarth"
+	}
+}
+
+d_lothian = {
+	cultural_names = {
+		cumbrian = "Lleuddiniaun"
+		welsh = "Lleuddiniaun"
+		gaelic = "Lodainn"
+		irish = "Lodainn"
+	}
+}
+
+d_strathclyde = {
+	cultural_names = {
+		cumbrian = "Ystrad Clud"
+		welsh = "Ystrad Clud"
+		gaelic = "Srath Chluaidh"
+		irish = "Srath Chluaidh"
+	}
+}
+
+d_the_isles = {
+	cultural_names = {
+		gaelic = "Innse Gall"
+		irish = "Inse Gall"
+		manx = "Ny h-Ellanyn"
+	}
+}
+
+d_ulster = {
+	cultural_names = {
+		irish = "Ulaidh"
+		gaelic = "Uladh"
+		manx = "Uladh"
+	}
+}
+
+d_munster = {
+	cultural_names = {
+		irish = "Mumhain"
+		gaelic = "Mhumhain"
+	}
+}
+
+d_leinster = {
+	cultural_names = {
+		irish = "Laighin"
+		gaelic = "Laighin"
+	}
+}
+
+d_connacht = {
+	cultural_names = {
+		irish = "Connachta"
+		gaelic = "Connacht"
+	}
+}

@@ -1,0 +1,124 @@
+celtic_blood = {
+	prowess = 4
+	martial = 2
+	learning = 2
+	intrigue = 1
+	stress_loss_mult = -0.15
+
+	ruler_designer_cost = 30
+	
+	cultural_acceptance_gain_mult = 0.25
+	
+	# Celtic Defiance: Penalty to Anglo-Saxon/English cultures
+	triggered_opinion_modifier = {
+		limit = {
+			receiver = {
+				OR = {
+					culture = anglo_saxon
+					culture = english
+					culture = saxon
+				}
+			}
+		}
+		opinion_modifier = celtic_defiance_opinion
+	}
+
+	# Celtic Brotherhood: Bonus with other Celts
+	triggered_opinion_modifier = {
+		limit = {
+			receiver = {
+				OR = {
+					culture = irish
+					culture = welsh
+					culture = gaelic
+					culture = pictish
+					culture = breton
+					culture = cornish
+					culture = cumbrian
+					culture = manx
+				}
+				NOT = { this = receiver }
+			}
+		}
+		opinion_modifier = celtic_brotherhood_opinion
+	}
+	
+	icon = celtic_blood_60.dds
+	
+	inherit_chance = 100 # Always passes down if one parent has it
+	natural = yes        # Prevents it from being "cured" or lost easily
+
+	# MaA Modifiers
+	longbowmen_damage_mult = 0.20
+	longbowmen_screen_mult = 0.10
+	
+	hobelars_damage_mult = 0.15
+	hobelars_pursuit_mult = 0.15
+	
+	gallowglass_damage_mult = 0.20
+	gallowglass_toughness_mult = 0.10
+	
+	pictish_spearmen_damage_mult = 0.20
+	pictish_spearmen_toughness_mult = 0.15
+	
+	breton_light_horsemen_damage_mult = 0.15
+	breton_light_horsemen_pursuit_mult = 0.15
+
+	kerns_damage_mult = 0.15
+	kerns_pursuit_mult = 0.10
+	
+	cumbrian_borderers_toughness_mult = 0.20
+	cumbrian_borderers_screen_mult = 0.15
+	
+	pictish_crossbowmen_damage_mult = 0.20
+	
+	breton_squires_damage_mult = 0.15
+	breton_squires_pursuit_mult = 0.15
+	
+	manx_mariners_damage_mult = 0.20
+	manx_mariners_toughness_mult = 0.15
+
+	name = celtic_blood_name
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = celtic_blood_desc
+			}
+			desc = celtic_blood_desc
+		}
+	}
+}
+
+celtic_bard = {
+	diplomacy = 2
+	learning = 2
+	monthly_prestige = 0.5
+	
+	inherit_chance = 25 # Small chance to pass down the "gift"
+	
+	ruler_designer_cost = 20
+	
+	icon = poet # Temporary use of vanilla poet icon
+	
+	name = celtic_bard_name
+	desc = celtic_bard_desc
+}
+
+druid = {
+	learning = 3
+	health = 0.25
+	monthly_piety = 0.5
+	
+	cannot_marry = yes
+	cannot_inherit = yes
+	
+	ruler_designer_cost = 25
+	
+	icon = herbalist # Temporary use of vanilla herbalist icon
+	
+	name = druid_name
+	desc = druid_desc
+}

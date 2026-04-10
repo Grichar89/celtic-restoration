@@ -1,0 +1,19 @@
+celtic_pilgrimage_travel = {
+	is_travel_phase = yes
+}
+
+celtic_pilgrimage_arrival = {
+	on_start = {
+		trigger_event = celtic_pilgrimage_events.0001
+	}
+}
+
+celtic_pilgrimage_meditation = {
+	on_start = {
+		trigger_event = celtic_pilgrimage_events.0002
+	}
+}
+
+celtic_pilgrimage_return = {
+	is_travel_phase = yes
+}

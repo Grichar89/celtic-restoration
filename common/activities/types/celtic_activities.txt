@@ -1,0 +1,59 @@
+grand_eisteddfod = {
+	category = activity_category_social
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { culture = culture:irish }
+				desc = grand_eisteddfod_irish
+			}
+			triggered_desc = {
+				trigger = { culture = culture:gaelic }
+				desc = grand_eisteddfod_gaelic
+			}
+			triggered_desc = {
+				trigger = { culture = culture:breton }
+				desc = grand_eisteddfod_breton
+			}
+			triggered_desc = {
+				trigger = { culture = culture:cornish }
+				desc = grand_eisteddfod_cornish
+			}
+			triggered_desc = {
+				trigger = { culture = culture:manx }
+				desc = grand_eisteddfod_manx
+			}
+			triggered_desc = {
+				trigger = { culture = culture:pictish }
+				desc = grand_eisteddfod_pictish
+			}
+			desc = grand_eisteddfod_welsh
+		}
+	}
+
+	is_shown = {
+		has_trait = celtic_blood
+	}
+	
+	is_valid = {
+		is_available = yes
+	}
+
+	cost = 200
+	
+	ui_icon = "icon_activity_feast" # Using feast icon as placeholder
+	
+	on_complete = {
+		add_prestige = 250
+		add_dynasty_prestige = 50
+	}
+
+	phases = {
+		grand_eisteddfod_opening
+		grand_eisteddfod_recital
+		grand_eisteddfod_revelry
+		grand_eisteddfod_closing
+	}
+	
+	province_modifier = grand_eisteddfod_province_modifier
+}

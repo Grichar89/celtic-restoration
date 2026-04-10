@@ -1,0 +1,46 @@
+# --- CELTIC STANDING STONES ---
+
+celtic_standing_stones = {
+	raise_celtic_stone_decision = {
+		title = raise_celtic_stone_decision
+		desc = raise_celtic_stone_decision_desc
+		selection_tooltip = raise_celtic_stone_decision_tooltip
+		
+		is_shown = {
+			has_trait = celtic_blood
+			is_living = yes
+			is_playable = yes
+		}
+		
+		is_valid = {
+			gold >= 100
+			NOT = { has_character_modifier = raised_celtic_stone_cooldown }
+		}
+		
+		effect = {
+			add_gold = -100
+			add_prestige = 250
+			add_dynasty_prestige = 50
+			
+			# Add a permanent modifier to the capital province
+			capital_province = {
+				add_province_modifier = {
+					modifier = celtic_standing_stone_modifier
+				}
+			}
+			
+			# Cooldown
+			add_character_modifier = {
+				modifier = raised_celtic_stone_cooldown
+				years = 10
+			}
+			
+			# Trigger memorial event
+			trigger_event = celtic_stone_events.0001
+		}
+		
+		ai_will_do = {
+			base = 5
+		}
+	}
+}

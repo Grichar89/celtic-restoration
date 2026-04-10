@@ -1,0 +1,27 @@
+tradition_bardic_tradition = {
+	category = social
+	
+	character_modifier = {
+		monthly_prestige = 0.5
+		diplomacy = 1
+	}
+	
+	parameters = {
+		unlocks_court_poet = yes
+		celtic_bard_modifier = yes
+	}
+}
+
+tradition_druidic_heritage = {
+	category = social
+	
+	character_modifier = {
+		monthly_piety = 0.5
+		learning = 1
+	}
+	
+	parameters = {
+		unlocks_court_druid = yes
+		celtic_druid_modifier = yes
+	}
+}

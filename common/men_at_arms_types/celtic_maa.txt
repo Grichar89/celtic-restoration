@@ -1,0 +1,120 @@
+# Kerns (Irish/Gaelic/Manx)
+kerns = {
+	type = skirmishers
+	can_recruit = {
+		OR = {
+			culture = culture:irish
+			culture = culture:gaelic
+			culture = culture:manx
+		}
+	}
+	
+	damage = 25
+	toughness = 15
+	pursuit = 20
+	screen = 15
+	
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 5 }
+		forest = { damage = 10 toughness = 5 }
+	}
+	
+	buy_cost = { gold = 45 }
+	low_maintenance_cost = { prestige = 0.25 }
+	high_maintenance_cost = { prestige = 0.75 }
+	stack_size = 100
+	icon = skirmishers
+}
+
+# Cumbrian Borderers (Cumbrian/Welsh)
+cumbrian_borderers = {
+	type = light_infantry
+	can_recruit = {
+		OR = {
+			culture = culture:cumbrian
+			culture = culture:welsh
+		}
+	}
+	
+	damage = 15
+	toughness = 25
+	pursuit = 5
+	screen = 25
+	
+	terrain_bonus = {
+		mountains = { damage = 5 toughness = 10 }
+		wetlands = { damage = 5 toughness = 10 }
+	}
+	
+	buy_cost = { gold = 40 }
+	low_maintenance_cost = { prestige = 0.2 }
+	high_maintenance_cost = { prestige = 0.6 }
+	stack_size = 100
+	icon = light_infantry
+}
+
+# Pictish Crossbowmen (Pictish)
+pictish_crossbowmen = {
+	type = archers
+	can_recruit = {
+		culture = culture:pictish
+	}
+	
+	damage = 40
+	toughness = 15
+	pursuit = 0
+	screen = 5
+	
+	counters = {
+		heavy_infantry = 1
+	}
+	
+	buy_cost = { gold = 75 }
+	low_maintenance_cost = { prestige = 0.4 }
+	high_maintenance_cost = { prestige = 1.2 }
+	stack_size = 100
+	icon = archers
+}
+
+# Breton Squires (Breton)
+breton_squires = {
+	type = light_cavalry
+	can_recruit = {
+		culture = culture:breton
+	}
+	
+	damage = 30
+	toughness = 20
+	pursuit = 35
+	screen = 25
+	
+	buy_cost = { gold = 90 }
+	low_maintenance_cost = { prestige = 0.5 }
+	high_maintenance_cost = { prestige = 1.5 }
+	stack_size = 50
+	icon = light_cavalry
+}
+
+# Manx Mariners (Manx)
+manx_mariners = {
+	type = heavy_infantry
+	can_recruit = {
+		culture = culture:manx
+	}
+	
+	damage = 40
+	toughness = 30
+	pursuit = 10
+	screen = 10
+	
+	terrain_bonus = {
+		coastal_desert = { damage = 10 toughness = 10 }
+		coastal_mountains = { damage = 10 toughness = 10 }
+	}
+	
+	buy_cost = { gold = 100 }
+	low_maintenance_cost = { prestige = 0.6 }
+	high_maintenance_cost = { prestige = 1.8 }
+	stack_size = 50
+	icon = heavy_infantry
+}

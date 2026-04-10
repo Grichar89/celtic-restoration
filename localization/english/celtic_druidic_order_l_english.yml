@@ -1,0 +1,11 @@
+l_english:
+ # Restore Decision
+ restore_druidic_order_decision:0 "Restore the Druidic Order"
+ restore_druidic_order_decision_desc:0 "The time has come to bring the ancient Druidic Order out of the shadows and back into the light of our courts. We shall officially recognize their wisdom and status, ensuring that the old ways are protected forever."
+ restore_druidic_order_decision_tooltip:0 "You will officially re-establish the Druidic Order as a recognized institution."
+ restorer_of_the_druidic_order:0 "Restorer of the Druidic Order"
+ 
+ # Notification Event
+ celtic_druid_events.0001.t:0 "The Order Restored"
+ celtic_druid_events.0001.desc:0 "Great news has arrived from the court of [root.GetTitledFirstName]. They have officially restored the ancient Druidic Order, bringing the keepers of the forest back to their rightful place of honor. A new age for the Celtic people has begun!"
+ celtic_druid_events.0001.a:0 "A glorious day for all Celts!"

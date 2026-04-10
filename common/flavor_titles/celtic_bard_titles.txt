@@ -1,0 +1,64 @@
+# Court Poet / Bard Flavor Titles
+court_poet_irish = {
+	priority = 100
+	trigger = {
+		culture = culture:irish
+		has_court_position = court_poet_position
+	}
+}
+
+court_poet_welsh = {
+	priority = 100
+	trigger = {
+		culture = culture:welsh
+		has_court_position = court_poet_position
+	}
+}
+
+court_poet_gaelic = {
+	priority = 100
+	trigger = {
+		culture = culture:gaelic
+		has_court_position = court_poet_position
+	}
+}
+
+court_poet_manx = {
+	priority = 100
+	trigger = {
+		culture = culture:manx
+		has_court_position = court_poet_position
+	}
+}
+
+court_poet_breton = {
+	priority = 100
+	trigger = {
+		culture = culture:breton
+		has_court_position = court_poet_position
+	}
+}
+
+court_poet_cumbrian = {
+	priority = 100
+	trigger = {
+		culture = culture:cumbrian
+		has_court_position = court_poet_position
+	}
+}
+
+court_poet_pictish = {
+	priority = 100
+	trigger = {
+		culture = culture:pictish
+		has_court_position = court_poet_position
+	}
+}
+
+court_poet_cornish = {
+	priority = 100
+	trigger = {
+		culture = culture:cornish
+		has_court_position = court_poet_position
+	}
+}

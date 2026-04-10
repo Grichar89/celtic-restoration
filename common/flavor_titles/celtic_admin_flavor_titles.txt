@@ -1,0 +1,74 @@
+# Administrative Government Flavor Titles for Celtic Cultures
+
+# Governor (Administrative Duke)
+title_governor_irish = {
+	priority = 100
+	trigger = {
+		culture = culture:irish
+		has_government = administrative_government
+		tier = tier_duchy
+	}
+}
+
+title_governor_welsh = {
+	priority = 100
+	trigger = {
+		culture = culture:welsh
+		has_government = administrative_government
+		tier = tier_duchy
+	}
+}
+
+title_governor_gaelic = {
+	priority = 100
+	trigger = {
+		culture = culture:gaelic
+		has_government = administrative_government
+		tier = tier_duchy
+	}
+}
+
+title_governor_breton = {
+	priority = 100
+	trigger = {
+		culture = culture:breton
+		has_government = administrative_government
+		tier = tier_duchy
+	}
+}
+
+title_governor_cornish = {
+	priority = 100
+	trigger = {
+		culture = culture:cornish
+		has_government = administrative_government
+		tier = tier_duchy
+	}
+}
+
+title_governor_manx = {
+	priority = 100
+	trigger = {
+		culture = culture:manx
+		has_government = administrative_government
+		tier = tier_duchy
+	}
+}
+
+title_governor_cumbrian = {
+	priority = 100
+	trigger = {
+		culture = culture:cumbrian
+		has_government = administrative_government
+		tier = tier_duchy
+	}
+}
+
+title_governor_pictish = {
+	priority = 100
+	trigger = {
+		culture = culture:pictish
+		has_government = administrative_government
+		tier = tier_duchy
+	}
+}

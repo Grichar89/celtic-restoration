@@ -1,0 +1,19 @@
+l_english:
+ celtic_blood_name:0 "Celtic Blood"
+ celtic_blood_desc:0 "This character carries the ancient blood of the Celts, granting them natural prowess and a connection to the old ways."
+
+ # New Men-at-Arms
+ kerns:0 "Kerns"
+ kerns_desc:0 "Highly mobile light infantry, Kerns are experts at skirmishing in difficult terrain, using their agility and javelins to harass the enemy."
+ 
+ cumbrian_borderers:0 "Cumbrian Borderers"
+ cumbrian_borderers_desc:0 "Hardened defenders of the rugged northern borders, these light footmen are skilled at screening their allies and holding difficult ground."
+ 
+ pictish_crossbowmen:0 "Pictish Crossbowmen"
+ pictish_crossbowmen_desc:0 "Utilizing early crossbow-like weapons, these Pictish archers provide devastating armor-piercing fire at the cost of mobility."
+ 
+ breton_squires:0 "Breton Squires"
+ breton_squires_desc:0 "Lighter than fully armored knights but more formidable than common light horsemen, these squires are masters of the pursuit."
+ 
+ manx_mariners:0 "Manx Mariners"
+ manx_mariners_desc:0 "Hardy sea-faring warriors from the Isle of Man, these heavy infantrymen are experts at coastal defense and amphibious warfare."

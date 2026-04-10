@@ -1,0 +1,26 @@
+l_english:
+ # Druid Trait
+ druid_name:0 "Druid"
+ druid_desc:0 "This character is a master of nature, medicine, and the ancient spiritual laws of the Celtic people. They are keepers of the forest and advisors to kings."
+ 
+ # Court Position Dynamic Names
+ court_druid_welsh:0 "Derwydd"
+ court_druid_irish:0 "Draoi"
+ court_druid_gaelic:0 "Draoidh"
+ court_druid_breton:0 "Drouiz"
+ court_druid_cornish:0 "Derwydh"
+ court_druid_manx:0 "Druaightagh"
+ court_druid_pictish:0 "Drui"
+ 
+ court_druid:0 "Court Druid"
+ court_druid_desc:0 "An ancient advisor who keeps the spiritual and physical health of the court, following the old ways of the land."
+ 
+ # Event
+ celtic_pilgrimage_events.0003.t:0 "Druidic Communion"
+ celtic_pilgrimage_events.0003.desc:0 "As I approach the sacred site, I notice my Druid has already made contact with others of their kind. They stand in a circle, whispering in a tongue that seems as old as the earth itself. They invite me to join them in a ritual to commune with the spirits of the land."
+ celtic_pilgrimage_events.0003.a:0 "We shall honor the old ways together."
+ 
+ # Search for Druid
+ search_for_druid_decision:0 "Search for a Renowned Druid"
+ search_for_druid_decision_desc:0 "I shall send my most trusted servants into the deep forests and ancient groves to find a Druid worthy of my court. We need their wisdom, their medicine, and their connection to the spirits of the land."
+ search_for_druid_decision_tooltip:0 "You will spend gold to attract a master Druid to your court."

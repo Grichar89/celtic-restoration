@@ -1,0 +1,14 @@
+namespace = celtic_druid_events
+
+celtic_druid_events.0001 = { # Notification of Restoration
+	type = character_event
+	title = celtic_druid_events.0001.t
+	desc = celtic_druid_events.0001.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = celtic_druid_events.0001.a
+		add_piety = 100
+	}
+}

@@ -1,0 +1,62 @@
+celtic_pilgrimage = {
+	category = activity_category_pilgrimage
+	
+	is_shown = {
+		has_trait = celtic_blood
+	}
+	
+	is_valid = {
+		is_available = yes
+	}
+
+	cost = 150
+	
+	ui_icon = "icon_activity_pilgrimage"
+	poi_icon = "icon_faith_pagan" 
+
+	on_complete = {
+		add_piety = 100
+		add_learning_xp = 50
+	}
+
+	phases = {
+		celtic_pilgrimage_travel
+		celtic_pilgrimage_arrival
+		celtic_pilgrimage_meditation
+		celtic_pilgrimage_return
+	}
+	
+	# Destinations
+	destinations = {
+		# Stonehenge
+		destination = {
+			title = title:b_amesbury
+			name = celtic_pilgrimage_stonehenge
+		}
+		# Tara
+		destination = {
+			title = title:b_tara
+			name = celtic_pilgrimage_tara
+		}
+		# St Davids
+		destination = {
+			title = title:b_st_davids
+			name = celtic_pilgrimage_st_davids
+		}
+		# Iona
+		destination = {
+			title = title:b_iona
+			name = celtic_pilgrimage_iona
+		}
+		# Anglesey (Mona)
+		destination = {
+			title = title:b_anglesey
+			name = celtic_pilgrimage_mona
+		}
+		# Carnac Area (Vannes/Auray)
+		destination = {
+			title = title:b_auray
+			name = celtic_pilgrimage_carnac
+		}
+	}
+}

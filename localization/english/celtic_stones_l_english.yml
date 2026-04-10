@@ -1,0 +1,25 @@
+﻿l_english:
+ # Decision
+ raise_celtic_stone_decision:0 "Raise a Standing Stone"
+ raise_celtic_stone_decision_desc:0 "I shall commission the carving and raising of a great stone to honor my ancestors, celebrate my conquests, and ensure that my name is remembered across the generations."
+ raise_celtic_stone_decision_tooltip:0 "You will raise a permanent memorial stone in your capital province."
+ 
+ # Event
+ celtic_stone_events.0001.t:0 "A Monument for the Ages"
+ celtic_stone_events.0001.desc:0 "The stone has been raised, and the symbols have been carved deep into its surface. Whether it is a [root.GetMaenHirName], an [root.GetOghamStoneName], or a [root.GetSymbolStoneName], it stands now as a testament to our dynasty's strength and honor."
+ celtic_stone_events.0001.a:0 "It shall stand forever."
+ 
+ # Culture Names
+ raise_celtic_stone_welsh:0 "Raise a Maen Hir"
+ raise_celtic_stone_irish:0 "Raise an Ogham Stone"
+ raise_celtic_stone_gaelic:0 "Raise a Standing Stone"
+ raise_celtic_stone_pictish:0 "Raise a Symbol Stone"
+ raise_celtic_stone_breton:0 "Raise a Menhir"
+ raise_celtic_stone_cornish:0 "Raise a Menhir"
+ raise_celtic_stone_manx:0 "Raise a Standing Stone"
+ 
+ celtic_standing_stone_modifier:0 "Standing Stone"
+ raised_celtic_stone_cooldown:0 "Raised a Memorial Stone"
+ 
+ # Decision Categories
+ celtic_standing_stones:0 "Celtic Standing Stones"

@@ -1,0 +1,13 @@
+# common/opinion_modifiers/celtic_defiance_opinions.txt
+celtic_defiance_opinion = {
+	opinion = -20
+}
+
+celtic_brotherhood_opinion = {
+	opinion = 10
+}
+
+celtic_lineage_recited_modifier = {
+	opinion = 5
+	monthly_prestige = 0.1
+}

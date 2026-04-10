@@ -1,0 +1,10 @@
+on_bi_yearly_pulse = {
+	events = {
+		chance = 10
+		celtic_bard_events.0001
+	}
+	events = {
+		chance = 5
+		celtic_druid_events.0002
+	}
+}
